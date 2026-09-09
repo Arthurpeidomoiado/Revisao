@@ -10,3 +10,4 @@ function Section({ titulo, descricao}) {
         </section>
     )
 }
+export default Section

@@ -13,3 +13,4 @@ function Setup({titulo, descricao}) {
         </div>
     )
 }
+export default Setup
