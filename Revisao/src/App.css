@@ -223,3 +223,6 @@
   color: white;
   padding: 20px;
 }
+.links{
+  scroll-behavior: smooth;
+}

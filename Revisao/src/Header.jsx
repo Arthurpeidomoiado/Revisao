@@ -1,4 +1,3 @@
-import header from './App.css';
 function Header(){
     return (
         <header className="header">

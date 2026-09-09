@@ -21,9 +21,9 @@ function App() {
       <img src="" alt="Foto do autor" />
       <a href="" id="">Mais sobre o autor</a>
 
-      <a href="">Link1</a>
-      <a href="">Link2</a>
-      <a href="">Link3</a>
+      <a href="" class="links">Link1</a>
+      <a href="" class="links">Link2</a>
+      <a href="" class="links">Link3</a>
 
       
     </>

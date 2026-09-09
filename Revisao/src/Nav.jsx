@@ -1,4 +1,3 @@
-import nav from './App.css';
 function Nav() {
     return (
         <nav className="nav">

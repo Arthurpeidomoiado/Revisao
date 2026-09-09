@@ -1,12 +1,18 @@
-import secao from './App.css';
 import {Conteudo_Section} from './Conteudo_Section.js';
-
+import Setup from './Setup.jsx';
 function Section({ titulo, descricao}) {
     return (
-        <section className="secao">
-            <h2>{titulo}</h2>
-            <br></br>
-            <p>{descricao}</p>
+        <section>
+            <h1>Perguntas e respostas</h1>
+            <div>{Conteudo_Section.map((conteudo)=> 
+                (<Setup
+                    key={conteudo.id} 
+                    titulo={conteudo.titulo} 
+                    descricao={conteudo.descricao}
+                />
+            )
+            )
+            }</div>
         </section>
     )
 }
