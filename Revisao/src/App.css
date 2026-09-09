@@ -183,7 +183,7 @@
   }
 }
 
-.Header{
+.header{
   background-color: black;
   text-align: center;
   text-transform: uppercase;  
@@ -191,7 +191,7 @@
   color: white;
   padding: 20px;
 }
-.Footer{
+.footer{
   background-color: black;
   text-align: center;
   text-transform: uppercase;  
@@ -199,7 +199,7 @@
   color: white;
   padding: 10px;
 }
-.Nav{
+.nav{
   background-color: green;
   text-align: center;
   text-transform: uppercase;  
@@ -207,7 +207,7 @@
   color: white;
   padding: 15px;
 }
-.Main{
+.main{
   background-color: lightgray;
   text-align: center;
   text-transform: uppercase;  
@@ -215,7 +215,7 @@
   color: black;
   padding: 25px;
 }
-.Secao{
+.secao{
   background-color: black;
   text-align: center;
   text-transform: uppercase;  

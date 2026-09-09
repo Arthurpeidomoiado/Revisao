@@ -1,7 +1,7 @@
-import Header from './App.css';
+import header from './App.css';
 function Header(){
     return (
-        <header className="Header">
+        <header className="header">
             <h1>My App</h1>
         </header>
     )
