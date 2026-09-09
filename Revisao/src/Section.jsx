@@ -1,8 +1,12 @@
-function Section(){
+import Secao from './App.css';
+import {Conteudo_Section} from './Conteudo_Section.js';
+
+function Section({ titulo, descricao}) {
     return (
-        <section>
-            <h2>Welcome to My App</h2>
-            <p>This is a simple React application.</p>
+        <section className="Secao">
+            <h2>{titulo}</h2>
+            <br></br>
+            <p>{descricao}</p>
         </section>
     )
 }

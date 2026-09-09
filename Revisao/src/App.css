@@ -182,3 +182,44 @@
     border-right-color: var(--border);
   }
 }
+
+.Header{
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 24px;
+  color: white;
+  padding: 20px;
+}
+.Footer{
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+}
+.Nav{
+  background-color: green;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+}
+.Main{
+  background-color: lightgray;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 20px;
+  color: black;
+  padding: 25px;
+}
+.Secao{
+  background-color: black;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 16px;
+  color: white;
+  padding: 20px;
+}
