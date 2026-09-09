@@ -8,6 +8,8 @@ function App() {
     <>
     <h1>Versão do Node: v24.16.0  Versão do Npm: v11.13.0  O ambiente está pronto para uso!</h1>
     <br />
+    <h1>O site foi criado no branch MASTER mas logo mudado para o branch Main, deixando mais claro o uso conforme as normas.</h1>
+    <br />
     
     </>
   )
