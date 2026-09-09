@@ -11,12 +11,9 @@ function App() {
     <>
       <Header />
       <Nav />
-      <Section numero="1" titulo="Sobre o Projeto" descricao="Este é um projeto de exemplo para demonstrar o uso de React e CSS." />
-      <Section numero="2" titulo="Funcionalidades" descricao="O site possui diversas funcionalidades que tornam a experiência do usuário mais agradável." />
-      <Section numero="3" titulo="Tecnologias Utilizadas" descricao="O projeto foi desenvolvido com React, CSS e outras tecnologias modernas." />
-      <Section numero="4" titulo="Contato" descricao="Entre em contato conosco para mais informações." />
+      <Section />
       <Footer />
-      
+
       <h1>Sobre o autor</h1>
       <p> Esse site foi criado por [Seu Nome], um desenvolvedor apaixonado por tecnologia e design, estudante da universidade
         Senai Cimatec, participante do curso de engenharia da computação da turma de 2026.2 do prof Celso, 6 semestre.
