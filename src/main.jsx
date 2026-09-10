@@ -8,3 +8,12 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+export function Main(){
+  return(
+    <main className='Main'>
+      <h1>
+        Main da página
+      </h1>
+    </main>
+  )
+}

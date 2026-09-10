@@ -1,0 +1,30 @@
+.Section{
+  align-items: center;
+  display: flex;
+  height: auto;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 20px;
+  gap:10px;
+}
+.card{
+  background-color: gray;
+  color:black;
+}
+.Footer{
+  background-color: lightblue;
+  padding: 10px;
+}
+.Header{
+  background-color: lime;
+  padding: 10px;
+}
+.Nav{
+  padding: 10px;
+  background-color: aquamarine;
+}
+.Main{
+  background-color: blueviolet;
+  font: 10%;
+  color: green;
+}
