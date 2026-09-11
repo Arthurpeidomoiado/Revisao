@@ -19,7 +19,13 @@ export const SectionContent = [
     },
     {
         id:4,
-        titulo: "Card Title 4",
+        titulo: "Card 4 -",
+        texto: "",
+        img: "https://via.placeholder.com/150"
+    },
+    {
+        id:5,
+        titulo: "Card 5 -",
         texto: "",
         img: "https://via.placeholder.com/150"
     }

@@ -26,5 +26,20 @@
 .Main{
   background-color: blueviolet;
   font: 10%;
-  color: green;
+  color: black;
+  gap: 5px;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+@keyframes Titulo_Apresentacao_Animacao{
+  0%{color:blue}
+  25%{color:rgb(95, 30, 155)}
+  50%{color:aqua}
+  75%{color:cadetblue}
+  100%{color:blue}
+}
+.Titulo_Apresentacao{
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-name: Titulo_Apresentacao_Animacao;
 }

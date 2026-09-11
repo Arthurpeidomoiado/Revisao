@@ -4,7 +4,7 @@ import './App.css'
 function Section() {
     return (
         <>
-            <div className='Section'>
+            <div className='Section' id='   section'>
                 {
                     SectionContent.map((content)=>(
                         <SetupSection
