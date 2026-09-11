@@ -12,6 +12,7 @@ function Section() {
                             titulo={content.titulo}
                             texto={content.texto}
                             img={content.img}
+                            status={content.status}
                         />
                         )
                     )
