@@ -49,3 +49,7 @@
   outline-offset: 2px;       /* Espaço entre o link e a borda */
   border-radius: 4px;        /* Arredondamento suave */
 }
+.link:hover{
+  background-color: grey;
+  animation-name: Titulo_Apresentacao_Animacao;
+}

@@ -10,7 +10,7 @@ function Footer(){
                 </h1>
                 <Nav/>
             </div>
-            <small>Essa página foi criada neste dispositivo em {data()}, originalmente em 09/09/2026. </small>
+            <small>Essa página foi criada neste dispositivo em {data()}, originalmente em 09/09/2026.</small>
         </>
     )
 }
