@@ -43,3 +43,9 @@
   animation-iteration-count: infinite;
   animation-name: Titulo_Apresentacao_Animacao;
 }
+.link{
+  scroll-behavior: smooth;
+  outline: 3px solid #ff09ef; /* Borda externa azul */
+  outline-offset: 2px;       /* Espaço entre o link e a borda */
+  border-radius: 4px;        /* Arredondamento suave */
+}

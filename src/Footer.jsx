@@ -2,7 +2,7 @@ import './App.css'
 import Nav from './Nav'
 function Footer(){
     return(
-        <div className='Footer'>
+        <div className='Footer' id='contato'>
             <h1>
                 Footer da página
             </h1>

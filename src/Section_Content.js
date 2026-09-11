@@ -25,8 +25,14 @@ export const SectionContent = [
     },
     {
         id:5,
-        titulo: "Card 5 -",
-        texto: "",
+        titulo: "Card 5 - Navegação",
+        texto: "Após a criação do menu de Navegação da página, criou-se links para o Inicio, Header, Main e para as Atividades. Tanto a implementação do Foco quanto a scrolagem suave já foram implementadas.",
+        img: "https://via.placeholder.com/150"
+    },
+    {
+        id:6,
+        titulo: "Card 6 - Cores, sobras e raios",
+        texto: ".",
         img: "https://via.placeholder.com/150"
     }
 ]
