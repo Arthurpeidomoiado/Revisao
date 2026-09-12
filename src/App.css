@@ -55,6 +55,7 @@
 .Header{
   background-color: yellow;
   padding: 10px;
+  margin-bottom: 2%;
 }
 .Nav{
   padding: 20px;
@@ -63,7 +64,7 @@
   border-radius: 100px;
 }
 .Main{
-  background-color: rgb(71, 68, 68);
+  background-color: yellow;
   font: 10%;
   color: black;
   gap: 5px;
@@ -73,11 +74,11 @@
   font-family: 'Times New Roman', Times, serif;
 }
 @keyframes Titulo_Apresentacao_Animacao{
-  0%{color:blue}
-  25%{color:rgb(95, 30, 155)}
-  50%{color:aqua}
-  75%{color:cadetblue}
-  100%{color:blue}
+  0%{color:#ff09ef}
+  25%{color:red}
+  50%{color:yellow}
+  75%{color:orange}
+  100%{color:green}
 }
 .Titulo_Apresentacao{
   animation-duration: 10s;
@@ -86,11 +87,10 @@
 }
 .link{
   scroll-behavior: smooth;
-  outline: 3px solid #ff09ef; /* Borda externa azul */
-  outline-offset: 2px;       /* Espaço entre o link e a borda */
-  border-radius: 4px;        /* Arredondamento suave */
+  outline: 1px solid #ff09ef; /* Borda externa azul */
+  outline-offset: 1px;       /* Espaço entre o link e a borda */
+  border-radius: 2px;        /* Arredondamento suave */
 }
 .link:hover{
-  background-color: grey;
-  animation-name: Titulo_Apresentacao_Animacao;
+  background-color: rgba(238, 238, 64, 0.877);
 }

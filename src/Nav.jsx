@@ -8,7 +8,7 @@ function Nav(){
             <h3>
                 Nav da página
             </h3>
-            <div className="link">    
+            <div>    
                     {
                         NavContent.map(
                             (content) => <NavSetup
