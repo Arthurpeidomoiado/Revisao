@@ -5,7 +5,7 @@ function SetupSection({ id, titulo, texto, img, status }) {
         <div className="card">
             <div style={{backgroundImage : `url(${img})`} } className="Topo_do_Card">
                 <p>{id}</p>
-                <p className="card">Status: <span><Status string={status}/></span></p>
+                <p className="card_status">Status: <span><Status string={status}/></span></p>
             </div>
             <div className="Fundo_do_Card">
                 <h2>{titulo}</h2>

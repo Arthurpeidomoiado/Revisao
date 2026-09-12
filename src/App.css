@@ -15,6 +15,7 @@
   background-color: yellow;
   border-radius: 5px;
 }
+
 .Topo_do_Card{
   background-color: yellow;
   color: black;
@@ -26,18 +27,24 @@
   background-color: green;
   border-radius: 10px;
   font-size: small;
+  color: rgb(255, 238, 0);
 }
 .Card_Pendente{
   background-color: yellow;
   border-radius: 10px;
   font-size: small;
-
+  color: purple;
 }
 .Card_Else{
   background-color: red;
   border-radius: 10px;
   font-size: small;
-
+  color: black;
+}
+.card_status{
+  background-color: rgba(128, 128, 128, 0.877);
+  border-radius: 5px;
+  color: cyan;
 }
 .Footer{
   background-color: yellow;
