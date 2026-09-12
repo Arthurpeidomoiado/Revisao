@@ -1,33 +1,49 @@
 .Section{
-  align-items: center;
-  display: flex;
+  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   height: auto;
-  background-color: blue;
-  padding: 10px;
+  background-color: black;
   border-radius: 20px;
-  gap:10px;
+  gap:20px;
+  padding:10px;
+  align-items:stretch;
 }
 .card{
-  background-color: gray;
-  color:black;
+  background-color: yellow;
+  
+}
+.Fundo_do_Card{
+  background-color: pink;
+  
+}
+.Topo_do_Card{
+  background-color: blue;
+  color: #ff09ef;
+  align-items: space-between;
+  display: flex;
 }
 .Footer{
-  background-color: lightblue;
+  background-color: red;
   padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 .Header{
-  background-color: lime;
+  background-color: black;
   padding: 10px;
 }
 .Nav{
   padding: 10px;
-  background-color: aquamarine;
+  background-color: white;
 }
 .Main{
-  background-color: blueviolet;
+  background-color: rgb(71, 68, 68);
   font: 10%;
   color: black;
   gap: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   align-items: center;
   font-family: 'Times New Roman', Times, serif;
 }

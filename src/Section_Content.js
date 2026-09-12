@@ -1,9 +1,9 @@
-export const SectionContet = [
+export const SectionContent = [
   {
     id: 1,
     titulo: "Card 1 - Ferramentas",
     texto: "Versão do NPM: 10.8.2 \n Versão do NODE: v20.17.0 \n O AMBIENTE ESTÁ PRONTO PARA SER USADO!",
-    img: "https://via.placeholder.com/150",
+    img: "../imagens/OIP.jpeg",
     status: "Concluido"
   },
   {

@@ -9,6 +9,7 @@ function Section() {
                     SectionContent.map((content)=>(
                         <SetupSection
                             key={content.id}
+                            id={content.id}
                             titulo={content.titulo}
                             texto={content.texto}
                             img={content.img}
