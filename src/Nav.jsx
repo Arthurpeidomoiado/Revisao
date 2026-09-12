@@ -1,4 +1,7 @@
 import './App.css'
+import { NavSetup } from './NavSetup'
+import { NavContent } from './NavContent'
+
 function Nav(){
     return(
         <nav className='Nav'>
@@ -6,22 +9,15 @@ function Nav(){
                 Nav da página
             </h3>
             <div nameClasss="link">    
-                    <ul>
-                        <img src="imagens/OIP.jpeg" width='4%'/>
-                        <a href='#inicio'>Link para o inicio</a>
-                    </ul>
-                    <ul>
-                        <img src="imagens/OIP.jpeg" width='4%'/>
-                        <a href='#sobre'>Link para o Sobre o autor</a>
-                    </ul>
-                    <ul>
-                        <img src="imagens/OIP.jpeg" width='4%'/>
-                        <a href='#atividades'>Link para o Atividades</a>
-                    </ul>
-                    <ul>
-                        <img src="imagens/OIP.jpeg" width='4%'/>
-                        <a href='#contato'>Link para o Contato</a>
-                    </ul>
+                    {
+                        NavContent.map(
+                            (content) => <NavSetup
+                                key = {content.key}
+                                link = {content.link}
+                                descricao={content.descricao}
+                            />
+                        )
+                    }
             </div>
         </nav>
     )
