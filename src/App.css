@@ -84,6 +84,15 @@
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-name: Titulo_Apresentacao_Animacao;
+  place-items: center;
+}
+.TextoApresentacao{
+  display: flex;
+  place-items: center;
+  justify-items: space-between;
+}
+.texto{
+  place-content: left;
 }
 .link{
   scroll-behavior: smooth;
