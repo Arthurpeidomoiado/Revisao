@@ -1,5 +1,8 @@
+.Plano_de_Fundo{
+   background-image: url('../imagens/papel_de_parede.jpg');
+   background-position: center;
+}
 .Section{
-  
   display: grid;
   grid-template-columns: repeat(3,1fr);
   height: auto;
@@ -7,35 +10,50 @@
   border-radius: 20px;
   gap:20px;
   padding:10px;
-  align-items:stretch;
 }
 .card{
   background-color: yellow;
-  
-}
-.Fundo_do_Card{
-  background-color: pink;
-  
+  border-radius: 5px;
 }
 .Topo_do_Card{
-  background-color: blue;
-  color: #ff09ef;
-  align-items: space-between;
+  background-color: yellow;
+  color: black;
+  justify-content: space-between;
   display: flex;
+  padding: 5px;
+}
+.Card_Concluido{
+  background-color: green;
+  border-radius: 10px;
+  font-size: small;
+}
+.Card_Pendente{
+  background-color: yellow;
+  border-radius: 10px;
+  font-size: small;
+
+}
+.Card_Else{
+  background-color: red;
+  border-radius: 10px;
+  font-size: small;
+
 }
 .Footer{
-  background-color: red;
+  background-color: yellow;
   padding: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
 }
 .Header{
-  background-color: black;
+  background-color: yellow;
   padding: 10px;
 }
 .Nav{
-  padding: 10px;
-  background-color: white;
+  padding: 20px;
+  background-color: yellow;
+  box-shadow: grey;
+  border-radius: 100px;
 }
 .Main{
   background-color: rgb(71, 68, 68);

@@ -5,7 +5,7 @@ function Nav(){
             <h3>
                 Nav da página
             </h3>
-            <li nameClasss="link">    
+            <div nameClasss="link">    
                     <ul>
                         <img src="imagens/OIP.jpeg" width='4%'/>
                         <a href='#inicio'>Link para o inicio</a>
@@ -22,7 +22,7 @@ function Nav(){
                         <img src="imagens/OIP.jpeg" width='4%'/>
                         <a href='#contato'>Link para o Contato</a>
                     </ul>
-            </li>
+            </div>
         </nav>
     )
 }
