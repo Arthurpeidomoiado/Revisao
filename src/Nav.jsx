@@ -8,11 +8,12 @@ function Nav(){
             <h3>
                 Nav da página
             </h3>
-            <div nameClasss="link">    
+            <div className="link">    
                     {
                         NavContent.map(
                             (content) => <NavSetup
-                                key = {content.key}
+                                img = {content.img}
+                                key = {content.id}
                                 link = {content.link}
                                 descricao={content.descricao}
                             />

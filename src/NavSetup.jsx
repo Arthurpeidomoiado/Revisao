@@ -1,8 +1,8 @@
 export function NavSetup({img, descricao, link}){
     return(
-        <ul>
+        <div>
             <img src={img} width='4%'/>
             <a href={link}>{descricao}</a>
-        </ul>
+        </div>
     )
 }
