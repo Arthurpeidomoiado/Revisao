@@ -8,9 +8,9 @@ function Section() {
     const [Tecnologia,setTecnologia] = useState('Todos');
     const tecnologias = ['Git', 'Vercel','React', 'CSS','HTML','Todos'];
     const [ItensFiltrados, setItensFiltrados] = useState(SectionContent);
-    const [concluidas, setconcluidas] =useState(0);
-    const [pendentes, setpendentes] =useState(0);
-    const [finalizadas, setnfinalizadas] =useState(0);
+    const concluidas = (ItensFiltrados.filter((item) => item.status === "Concluido").length);
+    const pendentes  = (ItensFiltrados.filter((item) => item.status === "Pendente").length);
+    const finalizadas = (ItensFiltrados.filter((item) => item.status === "Não Terminado").length);
 
     useEffect(()=>{
         const resultado = SectionContent.filter((item) =>{
@@ -22,11 +22,7 @@ function Section() {
         })
         setItensFiltrados(resultado);
     },[busca,Tecnologia]);
-    useEffect(()=>{
-        setconcluidas(ItensFiltrados.filter((item) => item.status === "Concluido").length)
-        setpendentes(ItensFiltrados.filter((item) => item.status === "Pendente").length)
-        setnfinalizadas(ItensFiltrados.filter((item) => item.status === "Não Terminado").length)
-    })
+    
     return (
         <>
             <div className="Nav">
