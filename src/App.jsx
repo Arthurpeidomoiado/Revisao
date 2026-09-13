@@ -5,15 +5,16 @@ import Header from './Header'
 import Footer from './Footer'
 import {Main} from './main'
 
+import { useState } from 'react';
 function App() {
   return (
-    <div className='Plano_de_Fundo'>
-      <Header />
-      <Nav />
-      <Main />
-      <Section />
-      <Footer />
-    </div>
+      <>
+        <Header />
+        <Nav />
+        <Main />
+        <Section />
+        <Footer />
+      </>
   )
 }
 
