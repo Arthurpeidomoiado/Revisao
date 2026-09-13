@@ -13,11 +13,13 @@ export function Main() {
     <main className='Main' id='sobre'>
       <h1 className='Titulo_Apresentacao'>Apresentação</h1>
       <br />
-      <div className='TextoApresentacao'>
+      <div className='TextoApresentacao' >
           <div className='texto'>
             Esse trabalho foi realizado por Arthur Gabriel Cabiceira Santos. Um estudante de Engenharia da Computação na universidade Senai cimatec para a matéria de Fullstack do 6 semestre de 2026.2 do Prof. Celso.
           </div>
-          <img src="../imagens/imagem_perfil.jpg" alt="Perfil" width='50%'/>
+          <div>
+            <img src="../imagens/imagem_perfil.jpg" alt="Perfil" width='160%'/>
+          </div>
       </div>
       <br></br>
       <small>Qualquer detalhe de contato estará disponível no topo e na parte inferior da página.</small>

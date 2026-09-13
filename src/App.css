@@ -84,15 +84,15 @@
   animation-iteration-count: infinite;
   animation-name: Titulo_Apresentacao_Animacao;
   place-items: center;
+  
 }
 .TextoApresentacao{
   display: flex;
   place-items: center;
-  justify-items: space-between;
-  gap: 20%;
+  justify-content: space-evenly;      
 }
 .texto{
-  place-content: left;
+  max-width: 70%;
 }
 .link{
   scroll-behavior: smooth;
