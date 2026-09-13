@@ -15,9 +15,7 @@ export function Main() {
       <br />
       <div className='TextoApresentacao'>
           <div className='texto'>
-            Esse trabalho foi realizado por Arthur Gabriel Cabiceira Santos. Um estudante de
-          Engenharia da Computação na universidade Senai cimatec para a matéria de Fullstack do 6
-          semestre de 2026.2 do Prof. Celso.
+            Esse trabalho foi realizado por Arthur Gabriel Cabiceira Santos. Um estudante de Engenharia da Computação na universidade Senai cimatec para a matéria de Fullstack do 6 semestre de 2026.2 do Prof. Celso.
           </div>
           <img src="../imagens/imagem_perfil.jpg" alt="Perfil" width='50%'/>
       </div>

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import SetupSection from "./Setup_Section";
 import { SectionContent } from "./Section_Content";
 import './App.css'
@@ -14,6 +15,7 @@ function Section() {
                             texto={content.texto}
                             img={content.img}
                             status={content.status}
+                            tecnologia={content.tecnologia}
                         />
                         )
                     )

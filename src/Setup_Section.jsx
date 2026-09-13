@@ -1,6 +1,6 @@
 import "./App.css"
 import { Status } from "./data/Status.jsx"
-function SetupSection({ id, titulo, texto, img, status }) {
+function SetupSection({ id, titulo, texto, img, status, tecnologia }) {
     return(
         <div className="card">
             <div style={{backgroundImage : `url(${img})`} } className="Topo_do_Card">
@@ -10,7 +10,7 @@ function SetupSection({ id, titulo, texto, img, status }) {
             <div className="Fundo_do_Card">
                 <h2>{titulo}</h2>
                 <p>{texto}</p>
-                <footer>{status}</footer>
+                <footer>{tecnologia}</footer>
             </div>
         </div>
         
