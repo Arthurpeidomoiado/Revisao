@@ -17,7 +17,8 @@ function Section() {
 
     return (
         <>
-            <div>
+            <div className="Nav">
+                <h3>Clique nos botões para aplicar filtros!</h3>
                 {
                     tecnologias.map((tech)=>(
                     <button key={tech}
