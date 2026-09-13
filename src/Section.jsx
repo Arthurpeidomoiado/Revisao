@@ -1,20 +1,32 @@
 import { useState } from "react";
+import { useEffect } from "react";
 import SetupSection from "./Setup_Section";
 import { SectionContent } from "./Section_Content";
 
 import './App.css'
 function Section() {
 
-    const [Tecnologia, SetTecnologia] = useState('');
+    const [Tecnologia, SetTecnologia] = useState('Todos');
 
-    const [Item, SetItem] = useState([]);
+    const [busca, Setbusca] = useState('');
 
     const tecnologias = ['Todos', 'HTML', 'Vercel', 'CSS', 'React', 'Git'];
 
-    const itensFiltrados = Tecnologia === '' || Tecnologia === 'Todos'
-    ? SectionContent
-    : SectionContent.filter(Item => Item.tecnologia.toLowerCase() == Tecnologia.toLowerCase());
+    const [ItensFiltrados, setItensFiltrados] = useState(SectionContent);
 
+    useEffect(() =>
+        {
+            const resultado = SectionContent.filter((item) => {
+                const bateTecnologia = Tecnologia ==='Todos' || item.tecnologia.toLowerCase() == Tecnologia.toLowerCase();
+                const termoBusca = busca.toLowerCase();
+                const bateTexto = item.texto.toLowerCase().includes(termoBusca);
+                const bateTitulo = item.titulo.toLowerCase().includes(termoBusca);
+
+                return bateTecnologia && (bateTexto || bateTitulo);
+            });
+            setItensFiltrados(resultado);
+        } , [busca,Tecnologia]
+    );
     return (
         <>
             <div className="Nav">
@@ -26,10 +38,16 @@ function Section() {
                         {tech}
                     </button>
                 ))}
+                    <input type="text" 
+                    placeholder="digite aqui para pesquisar" 
+                    value={busca}   
+                    onChange={(e) => Setbusca(e.target.value)}
+                    />
             </div>
+
             <div className='Section' id='section'>
                 {
-                    itensFiltrados.map((content)=>(
+                    ItensFiltrados.map((content)=>(
                         <SetupSection
                             key={content.id}
                             id={content.id}
